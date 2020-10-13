@@ -83,17 +83,17 @@ print  """
 
 jalan("\033[1;94m•◈•───────•◈ NOT A NAME ITS Zul •◈•───────•◈•")  
 
-jalan("\033[32;1m🔴INFORMASI TOOLS INI")
-jalan("\033[32;1mKALO MAU LOGIN GUNAKAN VPN")
-jalan("\033[32;1mMIN KENAPA HARUS GUNAIN VPN")
-jalan("\033[32;1mBIAR AKUN GAK KENA CEKPOIN SAMPE SINI PAHAM")
-jalan("Username :\033[32;1mJulong / Password :\033[32;1mJulong")
-jalan("\033[32;1m═══════════════════════════════════════════")
+jalan("SCRIPNYA SUDAH ADMIN Update Ke Versi Terbaru")
+jalan("ketikan python2 DarkVip.pyc")
+jalan("Username dan passwordnya Ada Di Dalam Tools")
+jalan("Kalo User/Pass nya eror Hubunggi admin ")
 
 CorrectUsername = "Julong"
 CorrectPassword = "Julong"
 
-
+recode"hpus semua[[[[[]]]]]
+Drop("decode")><[`[`{\[`♤`[
+AirDrop("=====]●619271937
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m[☆] \x1b[1;97mUSER ID \x1b[1;96m>>>> ")

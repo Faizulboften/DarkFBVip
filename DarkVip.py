@@ -90,7 +90,7 @@ jalan("\033[32;1mKALO MAU LOGIN GUNAKAN VPN")
 jalan("\033[32;1mMIN KENAPA HARUS GUNAIN VPN")
 jalan("\033[32;1mBIAR AKUN GAK KENA CEKPOIN SAMPE SINI PAHAM")
 jalan("Username :\033[32;1mJulong / Password :\033[32;1mJulong")
-jalan("\033[32;1m═══════════════════════════════════════════
+jalan("\033[32;1m═══════════════════════════════════════════")
 
 CorrectUsername = "Julong"
 CorrectPassword = "Julong"
